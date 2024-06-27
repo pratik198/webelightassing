@@ -1,0 +1,386 @@
+/*
+.main_div {
+}
+.sub_div_1 {
+  background-color: #e11b23;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.sub_div_1_categories {
+  display: flex;
+  position: relative;
+  left: 18.6%;
+  font-weight: 600;
+}
+.small_div {
+  padding: 14px 12px;
+}
+.sm_div_color {
+  background-color: #ed2d2f;
+  border-left: 0.5px solid #2f4f4f;
+}
+.sub_div_2_menu {
+  display: flex;
+  position: relative;
+  right: 11%;
+  font-size: 13px;
+}
+.sub_div_2 {
+  font-size: 10px;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  background-color: transparent;
+  height: 136px;
+  width: 136px;
+  position: absolute;
+  top: -7px;
+  left: 37px;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+.sub_div_2_categories {
+  display: flex;
+  font-size: 10px;
+  position: absolute;
+  left: 186px;
+}
+.sub_div_2_small_divs {
+  padding: 20px 16px;
+  font-size: 13.5px;
+  color: #2f4f4f;
+}
+.dropDownBox {
+  border: 2px solid;
+  position: relative;
+  top: 128px;
+  z-index: 10;
+  background-color: white;
+}
+
+.sub_div_icons {
+  display: flex;
+  position: absolute;
+  right: 15%;
+  align-items: center;
+  gap: 3em;
+}
+.search {
+  display: flex;
+  padding: 5px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  transition: width ease 2s;
+}
+.search input {
+  border: none;
+  background-color: #eeeeee;
+  outline: none;
+}
+.search_icons {
+  height: 30px;
+  width: 30px;
+}
+.search_icons img {
+  height: 100%;
+  width: 100%;
+}
+*/
+
+.main_div {
+}
+.sub_div_1 {
+  background-color: #e11b23;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.sub_div_1_categories {
+  display: flex;
+  position: relative;
+  left: 18.6%;
+  font-weight: 600;
+}
+.small_div {
+  padding: 14px 20px;
+  /* border: pink solid 1px; */
+  /* font-size: 15px; */
+}
+.sm_div_color {
+  background-color: #ed2d2f;
+  border-left: 0.5px solid #2f4f4f;
+  text-decoration: none;
+  color: white;
+}
+.sub_div_2_menu {
+  display: flex;
+  position: relative;
+  right: 5%;
+  font-size: 13px;
+}
+.sub_div_2 {
+  /* border: green solid 2px; */
+  font-size: 10px;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5); */
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  background-color: transparent;
+  height: 136px;
+  width: 136px;
+  position: absolute;
+  top: -7px;
+  left: 37px;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+.sub_div_2_categories {
+  display: flex;
+  font-size: 10px;
+  position: absolute;
+  left: 186px;
+}
+.sub_div_2_small_divs {
+  padding: 20px 16px;
+  font-size: 13.5px;
+  color: #2f4f4f;
+}
+.sub_div_icons {
+  display: flex;
+  position: absolute;
+  right: 4%;
+  align-items: center;
+  gap: 3em;
+}
+.search {
+  display: flex;
+  padding: 5px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  transition: width ease 2s;
+}
+.search input {
+  border: none;
+  background-color: #eeeeee;
+  outline: none;
+}
+.search_icons {
+  /* background-color: green; */
+  height: 30px;
+  width: 30px;
+}
+.search_icons img {
+  height: 100%;
+  width: 100%;
+}
+
+.sub_div_2_small_divs {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dropdown div {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown div:hover {
+  background-color: #f5f5f5;
+}
+
+.sub_div_2_small_divs {
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.sub_div_2_small_divs strong {
+  transition: color 0.3s ease;
+}
+
+.sub_div_2_small_divs:hover strong {
+  color: red;
+}
+
+.sub_div_2_small_divs::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  /* padding: 5px; */
+  background-color: red;
+  transition: width 0.3s ease;
+}
+
+.sub_div_2_small_divs:hover::after {
+  width: 100%;
+}
+
+.fa_user {
+  padding: 0;
+}
+
+.dropdown_contenr {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-right: 1.1rem;
+  padding-left: 1.1rem;
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
+  margin-right: 10px;
+  color: #3e3f45;
+}
+
+.red-toast {
+  background-color: #e11b23 !important;
+  border-radius: 15px !important;
+  color: white !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+}
+
+.red-toast-body {
+  height: 40px !important;
+  border-radius: 15px !important;
+}
+
+/* Add this CSS to your Heading.css file */
+.selected {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  /* Add any other styles you want for the selected div */
+}
+
+.icon_style {
+  color: black; /* Set the color of the icon to black */
+  background-color: white; /* Set the background color to white */
+  border: 1px solid black; /* Add a black border */
+  border-radius: 50%; /* Make the border rounded for circular shape */
+  padding: 5px; /* Adjust padding as needed */
+}
+
+@media only screen and (max-width: 600px) {
+  .main_div {
+    overflow: hidden;
+  }
+  .hidden_divs_media_query {
+    display: none;
+  }
+  .sub_div_1_categories {
+    display: flex;
+    position: relative;
+    left: 68px;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+  }
+  .small_div {
+    padding: 10px 10px;
+    width: 14%;
+    font-size: 12px;
+  }
+  .logo {
+    background-color: transparent;
+    height: 90px;
+    width: 75px;
+    position: absolute;
+    left: -6px;
+    top: -3px;
+  }
+  .sub_div_icons {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    align-items: center;
+    gap: 15px;
+    height: 35px;
+  }
+  .search {
+    display: flex;
+    /* padding: 5px; */
+    /* background-color: #eeeeee; */
+    border-radius: 5px;
+    /* font-size: 17px; */
+    transition: width ease 2s;
+  }
+  .search_icons {
+    /* background-color: green; */
+    height: 25px;
+    width: 25px;
+    /* font-size: 17px; */
+  }
+  .fa_user {
+    padding: 0;
+    /* height: 25px; */
+    font-size: 22px;
+    /* width: 25px; */
+    color: #ebe5e5 !important;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: -18px;
+    min-width: 137px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    color: #58595b !important;
+  }
+
+  .fa_wishlist {
+    font-size: 22px;
+    color: #ebe5e5 !important;
+  }
+  .fa_cart {
+    font-size: 22px;
+    color: #ebe5e5 !important;
+  }
+  .sub_div_2_categories {
+    display: flex;
+    /* font-size: 8px; */
+    position: absolute;
+    left: 62px;
+    gap: 6px;
+  }
+  .sub_div_2_small_divs {
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+    /* padding-right: 7px; */
+    font-size: 11px;
+  }
+  .carousel_container {
+    height: 240px;
+    width: 98vw;
+    max-width: 100%;
+    overflow: hidden;
+    margin-left: 7px;
+  }
+}

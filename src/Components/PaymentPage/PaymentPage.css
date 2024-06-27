@@ -1,0 +1,131 @@
+.payment_methods_container {
+  width: 46%;
+}
+.payment_methods_container p {
+  color: #58595b;
+}
+/* .payment_methods {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 285px;
+  align-items: center;
+  border: 1px solid #dfe5ed;
+}
+.payment_methods div {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #dfe5ed;
+  height: 100%;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 10px;
+} */
+.diff_payment_methods {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #dfe5ed; */
+}
+.payment_methods_div {
+  border: 1px solid #dfe5ed;
+  /* display: flex; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.payment_method {
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  position: relative;
+  top: 14px;
+}
+.payment_method label {
+  color: #58595b;
+}
+.payment_method input {
+  position: relative;
+  bottom: 14px;
+}
+.upi_details {
+  border: 1px solid #dfe5ed;
+  padding: 25px;
+  background-color: #f9f9f9;
+  width: 50%;
+  position: relative;
+  left: 139px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.upi_details input {
+  height: 35px;
+  width: 100%;
+  border: 1px solid #dfe5ed;
+  border-radius: 8px;
+}
+.card_details {
+  border: 1px solid #dfe5ed;
+  padding: 25px;
+  background-color: #f9f9f9;
+  width: 50%;
+  position: relative;
+  left: 139px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card_details input {
+  height: 35px;
+  width: 100%;
+  border: 1px solid #dfe5ed;
+  border-radius: 8px;
+}
+.card_details div {
+  display: flex;
+  gap: 10px;
+}
+.card_details div input {
+  height: 35px;
+  width: 30%;
+  border: 1px solid #dfe5ed;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .payment_methods_container {
+    width: 100%;
+  }
+  .payment_methods_container p {
+    color: #58595b;
+    margin-left: 10px;
+  }
+  .card_details {
+    border: 1px solid #dfe5ed;
+    padding: 25px;
+    background-color: #f9f9f9;
+    width: 60%;
+    position: relative;
+    left: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .upi_details {
+    border: 1px solid #dfe5ed;
+    padding: 25px;
+    background-color: #f9f9f9;
+    width: 63%;
+    position: relative;
+    left: 45px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}

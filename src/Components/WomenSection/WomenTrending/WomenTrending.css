@@ -1,0 +1,23 @@
+.women_trending_btn {
+  left: 109em;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 3260px;
+}
+.women_trending_prev_btn {
+  left: 0;
+}
+.women_trending_next_btn {
+  right: 0;
+}
+@media only Screen and (max-width: 600px) {
+  .women_trending_next_btn {
+    right: 0;
+    left: 28em;
+    top: 4130px;
+  }
+  .women_trending_prev_btn {
+    top: 4130px;
+  }
+}

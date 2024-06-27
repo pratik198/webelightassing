@@ -1,0 +1,107 @@
+.category_image {
+  width: 100%;
+  height: 24em;
+}
+.category_image img {
+  width: 100%;
+  height: 100%;
+}
+.divided_page {
+  /* border: 2px solid; */
+  width: 99.8%;
+  display: flex;
+}
+.left_part {
+  /* border: 2px solid red; */
+  width: 20%;
+  height: 100%;
+  padding-left: 10px;
+}
+.left_part h5 {
+  color: #58595b;
+}
+.search_for_products {
+  width: 92%;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #e3e3e3;
+}
+.category_checkbox_div {
+  display: flex;
+  flex-direction: column;
+}
+.category_checkbox_div label {
+  color: #58595b;
+}
+.right_part {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only Screen and (max-width: 600px) {
+  .category_image {
+    width: 100%;
+    height: 20em;
+  }
+  .divided_page {
+    /* border: 2px solid; */
+    width: 99.8%;
+    display: flex;
+    flex-direction: column;
+  }
+  .left_part {
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 100%;
+    padding-left: 10px;
+    /* display: none; */
+  }
+  .single_category_details_h3_media_query {
+    color: rgb(88, 89, 91);
+    margin-bottom: 0;
+  }
+  .single_category_details_brands_media_query {
+    height: 90px;
+    overflow: scroll;
+  }
+  .right_part {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .single_category_details_media_query {
+    border: 1px solid #dedede;
+    width: 23%;
+    margin-left: 7px;
+    margin-top: 7px;
+    width: 47%;
+    border-radius: 5px;
+  }
+  .single_category_details_image_media_query {
+    height: 260px;
+    width: 100%;
+  }
+  .category_details_price_div_media_query {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    height: 25px;
+    font-size: 12px !important;
+    color: rgb(88, 92, 112);
+  }
+  .category_details_h5_media_query {
+    margin: 0;
+    font-size: 12px !important;
+    padding: 5px;
+    color: #585c70;
+    height: 50px !important;
+  }
+  .category_details_mrp_media_query {
+    font-size: 13px !important;
+    color: rgb(115, 117, 123);
+  }
+}

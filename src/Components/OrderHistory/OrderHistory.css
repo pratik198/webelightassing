@@ -1,0 +1,138 @@
+.order_history_main_div {
+  /* border: 1px solid black; */
+  width: 80%;
+  margin-left: 10em;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.left_side_orderhistory {
+  width: 25%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: sticky;
+  top: 50px; /* Adjust top position as needed */
+  height: calc(
+    100vh - 50px
+  ); /* Adjust height to fit viewport minus the top bar height */
+  overflow-y: auto;
+}
+.right_side_orderhistory {
+  /* border: 1px solid green; */
+  width: 72%;
+  overflow-y: auto;
+}
+.userName {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.userName h4 {
+  margin: 0;
+}
+.userName p {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.orders {
+  padding-left: 10px;
+  margin: 0;
+  border: 1px solid #7f7f7f;
+}
+.orderhistory_profile {
+  border: 1px solid #7f7f7f;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 320px;
+}
+.orderhistory_profile div {
+  border-bottom: 1px solid #7f7f7f;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.logout_btn {
+  height: 40px;
+  width: 100%;
+  color: #d9534f;
+  font-weight: 800;
+  border: 2px solid #d9534f;
+  border-radius: 4px;
+}
+
+.order_details_div {
+  border: 1px solid #7f7f7f;
+  margin-top: 15px;
+}
+.order_details_top {
+  border: 1px solid #7f7f7f;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f7f7f7;
+  color: #525964;
+  font-weight: 400;
+  font-size: 14px;
+}
+.order_details {
+  display: flex;
+  /* margin-top: 15px; */
+  padding: 20px;
+  gap: 20px;
+}
+.image_div {
+  /* border: 1px solid green; */
+  height: 8em;
+  width: 110px;
+}
+.image_div img {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+}
+.details p {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .order_history_main_div {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+  .left_side_orderhistory {
+    display: none;
+  }
+  .right_side_orderhistory {
+    /* border: 1px solid green; */
+    width: 97%;
+    overflow-y: auto;
+    margin-left: 6px;
+  }
+  .order_details_top {
+    border: 1px solid #7f7f7f;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f7f7f7;
+    color: #525964;
+    font-weight: 400;
+    font-size: 11px;
+  }
+}

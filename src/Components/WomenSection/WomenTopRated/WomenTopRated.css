@@ -1,0 +1,43 @@
+.women_topRated_btn {
+  left: 109em;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 2620px;
+}
+.women_topRated_next_btn {
+  right: 0;
+}
+.women_topRated_prev_btn {
+  left: 0;
+}
+
+/*FOR ZOOMING IMAGE*/
+.women_new_arr_img_div {
+  height: 455px;
+  width: 100%;
+  border-radius: 25px;
+}
+.zoomable_img_div {
+  overflow: hidden;
+}
+.women_new_arr_img_div img {
+  height: 100%;
+  width: 100%;
+}
+.zoomable_image {
+  transition: transform 0.2s ease-in-out;
+}
+.zoomable_image:hover {
+  transform: scale(1.1);
+}
+@media only Screen and (max-width: 600px) {
+  .women_topRated_next_btn {
+    right: 0;
+    left: 28em;
+    top: 3470px;
+  }
+  .women_topRated_prev_btn {
+    top: 3470px;
+  }
+}

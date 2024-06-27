@@ -1,0 +1,121 @@
+.top__categories {
+  /* border: 1px solid red; */
+  display: flex;
+  height: 25em;
+  justify-content: space-evenly;
+}
+
+.CatagoriesForMan__content__top {
+  /* border: 1px solid black; */
+  width: 26em;
+}
+
+.CatagoriesForMan__content--image-1 {
+  height: 100%;
+  width: 100%;
+}
+
+.CatagoriesForMan__content--section {
+  width: 100%;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+}
+.CatagoriesForMan__content {
+  /* border: 1px solid black; */
+  width: 20em;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 18em;
+}
+
+.CatagoriesForMan__content--image {
+  height: 100px;
+  width: 100px;
+}
+
+.CatagoriesForMan__content--section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.CatagoriesForMan__content {
+  margin-bottom: 38px;
+}
+
+.CatagoriesForMan__content--image {
+  width: 100%;
+  height: auto;
+}
+
+.CatagoriesForMan__content {
+  flex-basis: calc(25% - 10px);
+  margin-bottom: 20px;
+  overflow: hidden;
+  margin: 3px;
+  margin-bottom: 9px;
+}
+
+.CatagoriesForMan__content--image {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.CatagoriesForMan__content:hover .CatagoriesForMan__content--image {
+  transform: scale(1.1);
+}
+
+.CatagoriesForMan__content__top {
+  overflow: hidden;
+}
+
+.CatagoriesForMan__content--image-1 {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.CatagoriesForMan__content__top:hover .CatagoriesForMan__content--image-1 {
+  transform: scale(1.1);
+}
+@media only Screen and (max-width: 600px) {
+  .top__categories {
+    /* border: 1px solid red; */
+    /* border: 1px solid red; */
+    display: flex;
+    height: 63em;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+  }
+  .CatagoriesForMan__content--image-1 {
+    width: 100%;
+    /* height: auto; */
+    transition: transform 0.3s ease;
+    height: 100%;
+  }
+  .CatagoriesForMan__content__top {
+    overflow: hidden;
+    width: 25em;
+    height: 325px;
+    overflow: hidden;
+    margin-left: 6px;
+  }
+  .CatagoriesForMan__content--section {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    flex-direction: column;
+    /* height: 84em; */
+  }
+
+  .CatagoriesForMan__content {
+    display: flex;
+    overflow: hidden;
+    margin: 3px;
+    margin-bottom: 9px;
+    width: 98%;
+    height: 257px;
+  }
+}

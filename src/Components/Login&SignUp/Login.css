@@ -1,0 +1,9 @@
+.submit_login_btn {
+  height: 45px;
+  width: 330px;
+  border-radius: 6px;
+  border: none;
+  background-color: #ed2d2f;
+  color: white;
+  font-size: 15px;
+}

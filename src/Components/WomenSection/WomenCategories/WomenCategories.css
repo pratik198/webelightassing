@@ -1,0 +1,121 @@
+.categories_for_women {
+  padding: 10px;
+}
+
+.women__top__categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 15px;
+  /* height: 30em; */
+  /* border: 1px solid red; */
+}
+
+.CatagoriesForWomen__content__top {
+  width: 31em;
+  height: 31em;
+  overflow: hidden;
+}
+
+.CatagoriesForWomen__content__top img {
+  height: 100%;
+  width: 100%;
+}
+
+.women__mid__categories {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+.CategoriesForWomen__content__mid {
+  height: 325px;
+  width: 23em;
+  overflow: hidden;
+}
+
+.CategoriesForWomen__content__mid img {
+  height: 100%;
+  width: 100%;
+}
+
+/* .women__bottom__categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  gap: 15px;
+}
+.CategoriesForWomen__content__bottom {
+  width: 31em;
+  height: 31em;
+  overflow: hidden;
+}
+.CategoriesForWomen__content__bottom img {
+  height: 100%;
+  width: 100%;
+} */
+.zoomable_image {
+  transition: transform 0.2s ease-in-out;
+}
+.zoomable_image:hover {
+  transform: scale(1.1);
+}
+
+/* .CatagoriesForMan__content {
+  flex-basis: calc(25% - 10px);
+  margin-bottom: 20px;
+  overflow: hidden;
+  margin: 3px;
+  margin-bottom: 9px;
+}
+
+.CatagoriesForMan__content--image {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.CatagoriesForMan__content:hover .CatagoriesForMan__content--image {
+  transform: scale(1.1);
+}
+
+.CatagoriesForMan__content__top {
+  overflow: hidden;
+}
+
+.CatagoriesForMan__content--image-1 {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.CatagoriesForMan__content__top:hover .CatagoriesForMan__content--image-1 {
+  transform: scale(1.1);
+} */
+@media only Screen and (max-width: 600px) {
+  .women__top__categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .CatagoriesForWomen__content__top {
+    width: 25em;
+    height: 325px;
+    overflow: hidden;
+  }
+  .women__mid__categories {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .CategoriesForWomen__content__mid {
+    height: 325px;
+    width: 25em;
+    overflow: hidden;
+  }
+}

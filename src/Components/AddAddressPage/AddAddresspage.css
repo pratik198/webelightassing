@@ -1,0 +1,206 @@
+.address_div {
+  /* border: 1px solid; */
+  height: 340px;
+  width: 46%;
+}
+
+/* .add_address {
+  border: 1px solid red;
+  height: 285px;
+  width: 100%;
+} */
+.add_address_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.add_address_img {
+  height: 15em;
+}
+.add_address_img img {
+  height: 100%;
+  width: 100%;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+.overall_address_container {
+  /* background-color: ; */
+  backdrop-filter: 10px;
+  width: 99.8%;
+  height: 100vh;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.address_container {
+}
+.close_btn {
+  /* position: fixed; */
+  /* right: 0; */
+  /* top: 5px; */
+  /* float: right; */
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form_box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: white;
+  padding: 20px;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  /* height: 335px;  */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.modal_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal_header h2 {
+  margin: 0;
+}
+.form-in {
+  background-color: #fff;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+.enter_your_name_div {
+  display: flex;
+}
+.enter_name {
+  width: 50%;
+}
+.enter_name input {
+  width: 95%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #7f7f7f;
+}
+.enter_address {
+  width: 100%;
+}
+.enter_address input {
+  width: 97.5%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #7f7f7f;
+}
+.enter_district {
+  display: flex;
+}
+.enter_area {
+  width: 50%;
+}
+.enter_area input {
+  width: 95%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #7f7f7f;
+}
+.enter_country {
+  display: flex;
+}
+.enter_country_child {
+  width: 50%;
+}
+.enter_country_child input {
+  width: 95%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #7f7f7f;
+}
+.enter_phnNo {
+  width: 100%;
+}
+.enter_phnNo input {
+  width: 97.5%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #7f7f7f;
+}
+.modal_action_btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-top: 25px;
+  width: 99%;
+}
+.cancel_btn {
+  font-size: 14px;
+  font-weight: bold;
+  height: 40px;
+  width: 25%;
+  border-radius: 12px;
+  border: 1px solid #aaa;
+  background-color: transparent;
+}
+.save_btn {
+  color: #fff;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  height: 40px;
+  width: 25%;
+  border-radius: 12px;
+  border: none;
+  background-color: #eb3e25;
+}
+/* @media only Screen and (max-width: 600px) {
+
+} */
+
+@media only screen and (max-width: 600px) {
+  .address_div {
+    height: 340px;
+    width: 100%;
+  }
+  .add_address_img {
+    height: 15em;
+    width: 100%;
+  }
+  .form_box {
+    width: 90%; /* Adjust width for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+  .enter_your_name_div {
+    flex-direction: column; /* Stack inputs vertically on smaller screens */
+  }
+  .enter_name,
+  /* .enter_district, */
+  .enter_address {
+    width: 100%; /* Adjust input width for smaller screens */
+  }
+  .enter_name input,
+  .enter_address input,
+  /* .enter_area input, */
+  /* .enter_country_child input, */
+  .enter_phnNo input {
+    width: 100%; /* Ensure input width fills container */
+  }
+  .enter_district {
+    width: 106%;
+  }
+  .enter_area {
+    width: 48%;
+  }
+  .enter_country {
+    width: 102%;
+  }
+  /* .enter_country_child {
+    width: 45%;
+  } */
+}

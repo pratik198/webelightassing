@@ -1,0 +1,158 @@
+.single_product_details {
+  display: flex;
+  width: 98vw;
+  overflow-x: hidden;
+}
+
+.sinlge_product_images_div {
+  width: 54%;
+  margin-left: 50px;
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 7px;
+  grid-row-gap: 7px;
+}
+
+.sinlge_product_images_div img {
+  height: 520px;
+  width: 100%;
+}
+
+.single_product_details_div {
+  margin-left: 44px;
+  margin-top: 45px;
+  width: 42%;
+}
+
+.single_product_brandname {
+  color: #58595b;
+  margin: 0;
+}
+
+.single_product_subcategory {
+  margin: 0;
+  color: #58595b;
+}
+
+.underline {
+  background-color: #58595b;
+  height: 1px;
+  margin-top: 20px;
+  width: 100%;
+}
+.single_product_price {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #58595b;
+}
+.single_product_details_MRP {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #58595b;
+}
+.single_product_sizeChart_div div {
+  height: 40px;
+  display: flex;
+  margin: 25px 5px;
+  gap: 10px;
+}
+.single_product_sizeChart_div button {
+  padding: 0 25px;
+  border: 2px solid #b3b3b3;
+  background-color: transparent;
+  border-radius: 20px;
+}
+.single_product_sizeChart_div p {
+  color: #b94442;
+  background-color: #f2dede;
+  border: 1px solid #b944422b;
+  padding: 15px;
+  margin-bottom: 0;
+  border-radius: 4px;
+}
+.select_quantity_div {
+  display: flex;
+  margin-top: 20px;
+  gap: 15px;
+  align-items: center;
+}
+.select_quantity_div div {
+  display: flex;
+  border-radius: 5px;
+  height: 25px;
+  width: 105px;
+  align-items: center;
+  justify-content: space-between;
+}
+.select_quantity_div button {
+  height: 25px;
+  width: 35px;
+  border-radius: 5px;
+  border: 1px solid #58595b;
+  background-color: transparent;
+}
+.add_to_whislist_div {
+  height: 34px;
+  display: flex;
+  /* justify-content: center; */
+  gap: 21px;
+}
+
+.single_product_details_shareInfo {
+  margin: 25px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.single_product_details_shareInfo div {
+  height: 27px;
+  width: 7em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only Screen and (max-width: 600px) {
+  .single_product_details {
+    display: flex;
+    width: 98vw;
+    overflow-x: hidden;
+    flex-direction: column !important;
+  }
+  .sinlge_product_images_div {
+    display: flex;
+    overflow-x: scroll;
+    width: 2009px;
+    margin-left: 9px;
+    margin-top: 0 !important;
+    grid-column-gap: 7px;
+  }
+  .mapped_product_img_div {
+    height: 390px;
+    width: 100%;
+  }
+
+  .sinlge_product_images_div img {
+    height: 100%;
+    width: 100%;
+  }
+  .single_product_details_div {
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 100%;
+  }
+  .add_to_whislist_div {
+    height: 34px;
+    display: flex;
+    /* justify-content: center; */
+    gap: 25px;
+    /* position: sticky; */
+    /* bottom: 40px; */
+  }
+  .single_product_details_buttons_media_query {
+    width: 13em !important;
+  }
+}

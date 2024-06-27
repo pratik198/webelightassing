@@ -1,0 +1,159 @@
+.signUp_main_div {
+  text-align: center;
+  width: 50%;
+  display: flex;
+  /* position: absolute; */
+  left: 26%;
+  justify-content: center;
+  align-items: center;
+  width: 99.8%;
+  background-color: #e6e7e8;
+}
+.signUp_main_inner_div {
+  background-color: white;
+  width: 30%;
+  margin-top: 35px;
+}
+.signUp_details_div {
+  border: 2px solid #9c9b9b;
+  margin: 16px 35px;
+  margin-bottom: 35px;
+  background-color: #f1f1f2;
+}
+.sign_up_btn {
+  border: 1px solid #c5c5c5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 24.3em;
+  margin-left: 7.5%;
+}
+.sign_up_btn button {
+  height: 100%;
+  background-color: #117a7a;
+  border: none;
+  width: 50%;
+  color: white;
+}
+.register {
+  width: 50%;
+}
+.signUp_with_div {
+  margin-top: 30px;
+  margin-left: 30px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 38px;
+  width: 325px;
+}
+.signUp_with_div div {
+  border: 1px solid #9c9b9b;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  border-radius: 10px;
+}
+.input_signUp_details_div {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 1em;
+  padding: 20px 0;
+}
+.input_signUp_details_div input {
+  height: 35px;
+  width: 23.5em;
+  border-radius: 13px;
+  border: 1px solid #cdcdce;
+  padding: 0 10px;
+}
+.firstLast_name {
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 21em;
+}
+.firstLast_name input {
+  width: 10.5em;
+}
+
+.submit_register_btn {
+  height: 45px;
+  width: 330px;
+  border-radius: 6px;
+  border: none;
+  background-color: #117a7a;
+  color: white;
+  font-size: 15px;
+}
+@media only Screen and (max-width: 600px) {
+  .signUp_main_inner_div {
+    background-color: white;
+    width: 100%;
+    margin-top: 0 !important;
+  }
+  .sign_up_btn {
+    border: 1px solid #c5c5c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 82.5%;
+    margin-left: 35px;
+  }
+  .signUp_with_div {
+    margin-top: 30px;
+    margin-left: 12px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 37px;
+    width: 308px;
+  }
+  .input_signUp_details_div input {
+    height: 35px;
+    width: 22.5em;
+    border-radius: 13px;
+    border: 1px solid #cdcdce;
+    padding: 0 10px;
+  }
+  .submit_login_btn {
+    height: 45px;
+    width: 315px !important;
+    border-radius: 13px !important;
+    border: none;
+    background-color: #ed2d2f;
+    color: white;
+    font-size: 15px;
+  }
+  .firstLast_name {
+    height: 35px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+    width: 20em;
+    /* margin-left: 5px; */
+    /* margin-right: 3px; */
+  }
+  .firstLast_name input {
+    width: 10em;
+    padding: 0 10px;
+  }
+  .submit_register_btn {
+    height: 45px;
+    width: 315px;
+    border-radius: 13px;
+    border: none;
+    background-color: #117a7a;
+    color: white;
+    font-size: 15px;
+  }
+}
